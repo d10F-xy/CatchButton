@@ -58,8 +58,8 @@ namespace CatchButton
             score += 100; // 버튼을 잡았을 때 점수 100점 증가
 
             // 버튼 크기 10% 감소 (최소 크기 제한)
-            int newWidth = Math.Max(minWidth, (int)Math.Round(Target.Width * 0.9));
-            int newHeight = Math.Max(minHeight, (int)Math.Round(Target.Height * 0.9));
+            int newWidth = (int)Math.Round(Target.Width * 0.9);
+            int newHeight = (int)Math.Round(Target.Height * 0.9);
             Target.Size = new Size(newWidth, newHeight);
 
             // 버튼을 잡았을 때 다른 소리 재생
