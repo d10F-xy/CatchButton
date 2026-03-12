@@ -1,3 +1,5 @@
+using System.Media;
+
 namespace CatchButton
 {
     public partial class Form1 : Form
@@ -28,19 +30,22 @@ namespace CatchButton
             int nextY = rd.Next(0, maxY);
 
             // 4. 위치할당(새로운Point 객체생성)
-            Target.Location = new Point(nextX, nextY);
+            Target.Location = new Point(nextX), nextY);
 
             // 5. 시각적피드백(폼제목표시줄에좌표출력)
             this.Text = $"버튼위치: ({nextX}, {nextY})"; // This는 현재 폼 객체 자신을 가리킴. Text는 폼 제목 표시줄에 출력되는 문자열을 의미
+
+            // 6. 소리 재생 (버튼을 놓쳤을 때 피드백)
+            SystemSounds.Beep.Play();
         }
-
-
-
-
 
         private void Target_Click(object sender, EventArgs e)
         {
+            // 버튼을 잡았을 때 다른 소리 재생
+            SystemSounds.Asterisk.Play();
 
+            // 버튼을 잡았을 때 축하한다는 메시지 박스 띄우기
+            MessageBox.Show("축하합니다! 버튼을 잡았습니다!", "성공", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
