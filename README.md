@@ -24,7 +24,8 @@
 점수와 버튼 좌표를 폼 제목에 나오게 변경하였으며, 점수는 성공시 +100점, 실패시 -10점으로 수정함. 또한 성공할 때마다 버튼의 크기가 10% 씩 감소함
 
 - 4단계 코드 스크린샷
-<img width="796" height="476" alt="image" src="https://github.com/user-attachments/assets/9f9de45a-f442-4072-9f06-daf3bbf52798" />
+<img width="797" height="480" alt="image" src="https://github.com/user-attachments/assets/5ba0a2ca-87bf-4a3e-8e63-4f2bd5ed3ccb" />
+
 
 실패 횟수 다수 있을 시 다시 시작 버튼을 만들고 구현
 
