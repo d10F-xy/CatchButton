@@ -7,4 +7,14 @@
 
 ## 실행화면
 - 1단계 코드 스크린샷
-<img width="883" height="552" alt="image" src="https://github.com/user-attachments/assets/b9e997b9-d048-4a6f-9305-cedaead34c47" />
+<img width="797" height="479" alt="image" src="https://github.com/user-attachments/assets/c22dd6b6-fdee-4f73-b7e1-15e8d311cbfc" />
+
+
+코드 구현 중 버튼이 폼에서 탈출하는 경우가 생겼는데, 폼의 크기에서 버튼의 크기를 뺌으로서 문제를 해결하였음.
+
+- 2단계 코드 스크린샷
+<img width="796" height="476" alt="image" src="https://github.com/user-attachments/assets/9f9de45a-f442-4072-9f06-daf3bbf52798" />
+
+
+소리는 시스템 파일을 사용하여서 나타나게 하였음. 또한, 메시지 박스를 통하여 버튼을 잡았을 경우 성공 축하합니다라는 메시지를 띄우게 하여 동기부여를 줌  
+
